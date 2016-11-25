@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d942d5fe-22ef-485f-841d-14e17f9142cc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/LearningJava" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/module_1/src/GameOfLife.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/module_1/src/MultiArray.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LearningJava.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ARRAYS.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Example2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Example3_IF.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Example4_FOR.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GameOfLife.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MultiArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TestPush.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LearningJava.iws" />
@@ -376,7 +378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1480080161151</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="test">
+      <created>1480080528286</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1480080528286</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
