@@ -45,27 +45,25 @@ public class GameOfLife {
             System.out.println();
         }
 
-        for (i=0;i<5;i++){
-            for (j=0;j<5;j++){
-                int currSell = world[i][j];
+        for (i = 0; i < 5; i++) {
+            for (j = 0; j < 5; j++) {
+                c = 0;
 
-                for (int rowi=i-1;rowi<=i+1;rowi++){
-                    if (rowi >=0 && rowi <5){
+                for (int row = i - 1; row <= i + 1; row++) {
+                    if (row < 0 || row > 4) continue;
 
-                        for(int rowj=j-1; rowj<=j;rowj++){
-                            if(rowj>=0 && rowj<5){
+                    for (int cell = j - 1; cell <= j + 1; cell++) {
 
-                                if (world[rowi][rowj] == x) c++;
-                                System.out.println(rowi + " " + rowj + " " + world [rowi][rowj] + " " + c);
+                        if (cell < 0 || cell > 4) continue;
 
-                            }
-                            c=0;
-                        }
+                        if (row == i && cell == j) continue;
+                        if (world[row][cell] == x) c++;
                     }
                 }
+                System.out.print(c + " ");
             }
+            System.out.println();
         }
-
 
 
 //        for (i = 1; i < 2; i++)
