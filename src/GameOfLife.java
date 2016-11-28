@@ -50,10 +50,10 @@ public class GameOfLife {
                 int currSell = world[i][j];
 
                 for (int rowi=i-1;rowi<=i+1;rowi++){
-                    if (rowi >=0 && rowi <5){
+                    if (rowi >=0 && rowi <5 && rowi!=i){
 
                         for(int rowj=j-1; rowj<=j;rowj++){
-                            if(rowj>=0 && rowj<5){
+                            if(rowj>=0 && rowj<5 && rowj!=j){
 
                                 if (world[rowi][rowj] == x) c++;
                                 System.out.println(rowi + " " + rowj + " " + world [rowi][rowj] + " " + c);
@@ -63,6 +63,7 @@ public class GameOfLife {
                         }
                     }
                 }
+                System.out.println( "cell = " + i + " " + j + " " + world[i][j]);
             }
         }
 
