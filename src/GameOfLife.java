@@ -7,7 +7,7 @@ import java.util.Arrays;
  */
 public class GameOfLife {
     public static void main(String[] args) {
-        //    ---------------------------------------------------------- array was populated
+        //------------------------------------------------------------- array was populated
         char world[][] = new char[10][10];
         int c, i, j;
         char x = 'X';
@@ -32,7 +32,7 @@ public class GameOfLife {
         }
         System.out.println();
 
-        //--------------------------------------------------------------^^^ array was populated version 2
+        //-------------------------------------------------------------- array was populated version 2
 
 //        char world[][] = {
 //                {'*', '*', '*', '*', '*'},
@@ -59,7 +59,7 @@ public class GameOfLife {
 //            System.out.println();
 //        }
 //        System.out.println();
-//-----------------------------------------------------------------------
+//      -----------------------------------------------------------------------
         for (int r = 0; r < 10; r++) {
 
             for (i = 0; i < 10; i++) {
@@ -96,9 +96,6 @@ public class GameOfLife {
                     world[m][n] = newworld[m][n];
                 }
             }
-
         }
-
     }
-
 }
