@@ -9,7 +9,7 @@ public class GameOfLife {
     public static void main(String[] args) {
         //    ---------------------------------------------------------- array was populated
         char world[][] = new char[10][10];
-        int c = 0, i, j;
+        int c, i, j;
         char x = 'X';
         char o = '*';
 
@@ -24,15 +24,6 @@ public class GameOfLife {
         world[3][3] = x;
 
         char newworld[][] = new char[10][10];
-//        for (i = 0; i < 10; i++)
-//            for (j = 0; j < 10; j++) {
-//                newworld[i][j] = o;
-//            }
-//        newworld[1][2] = x;
-//        newworld[2][3] = x;
-//        newworld[3][1] = x;
-//        newworld[3][2] = x;
-//        newworld[3][3] = x;
 
         for (i = 0; i < 10; i++) {
             for (j = 0; j < 10; j++)
@@ -69,7 +60,7 @@ public class GameOfLife {
 //        }
 //        System.out.println();
 //-----------------------------------------------------------------------
-        for (int r=0;r<10;r++) {
+        for (int r = 0; r < 10; r++) {
 
             for (i = 0; i < 10; i++) {
 
@@ -86,7 +77,6 @@ public class GameOfLife {
                             if (world[row][col] == x) c++;
                         }
                     }
-
                     if (c < 2 || c > 3) {
                         newworld[i][j] = o;
                     }
@@ -97,16 +87,12 @@ public class GameOfLife {
                         newworld[i][j] = x;
                     }
                     System.out.print(newworld[i][j] + " ");
-
-
                 }
                 System.out.println();
-
-
             }
             System.out.println();
-            for (int m=0;m<10;m++){
-                for (int n=0;n<10;n++){
+            for (int m = 0; m < 10; m++) {
+                for (int n = 0; n < 10; n++) {
                     world[m][n] = newworld[m][n];
                 }
             }
