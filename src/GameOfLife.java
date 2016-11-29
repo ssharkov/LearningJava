@@ -60,12 +60,19 @@ public class GameOfLife {
 //        }
 //        System.out.println();
 //      -----------------------------------------------------------------------
-        for (int r = 0; r < 10; r++) {
+
+
+
+
+
+
+        for (int r = 0; r < 20; r++) {
 
             for (i = 0; i < 10; i++) {
 
                 for (j = 0; j < 10; j++) {
                     c = 0;
+
 
                     for (int row = i - 1; row <= i + 1; row++) {
                         if (row < 0 || row > 9) continue;
