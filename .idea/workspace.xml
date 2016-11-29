@@ -4,11 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/src/GameOfLife.java" line="25" mnemonic="6" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d942d5fe-22ef-485f-841d-14e17f9142cc" name="Default" comment="test">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GameOfLive_improved.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Example2.java" afterPath="" />
+    <list default="true" id="d942d5fe-22ef-485f-841d-14e17f9142cc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GameOfLife.java" afterPath="$PROJECT_DIR$/src/GameOfLife.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GameOfLive_improved.java" afterPath="$PROJECT_DIR$/src/GameOfLive_improved.java" />
     </list>
     <ignored path="LearningJava.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,8 +70,8 @@
       <file leaf-file-name="GameOfLive_improved.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GameOfLive_improved.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+            <state relative-caret-position="374">
+              <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -687,7 +685,14 @@
       <option name="project" value="LOCAL" />
       <updated>1480350658974</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="test">
+      <created>1480428048255</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1480428048255</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -796,8 +801,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GameOfLive_improved.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        <state relative-caret-position="374">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
           <folding />
         </state>
       </provider>

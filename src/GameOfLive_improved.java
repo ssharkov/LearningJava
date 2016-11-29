@@ -42,11 +42,8 @@ public class GameOfLive_improved {
                 System.out.println();
             }
             System.out.println();
-            for (int m = 0; m < sizerow; m++) {
-                for (int n = 0; n < sizecol; n++) {
-                    world[m][n] = newworld[m][n];
-                }
-            }
+            world = newworld;
+            newworld = new char[sizerow][sizecol];
         }
     }
 
@@ -79,6 +76,4 @@ public class GameOfLive_improved {
         }
         return newworld[row][col];
     }
-
-
 }
