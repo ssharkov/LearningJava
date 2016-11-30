@@ -1,4 +1,4 @@
-package src;
+package gameOfLife;
 
 import java.util.Arrays;
 
@@ -72,7 +72,6 @@ public class GameOfLife {
 
                 for (j = 0; j < 10; j++) {
                     c = 0;
-
 
                     for (int row = i - 1; row <= i + 1; row++) {
                         if (row < 0 || row > 9) continue;
