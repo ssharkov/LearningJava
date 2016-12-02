@@ -1,4 +1,4 @@
-package src;
+package Learning;
 
 /**
  * Created by ssharkov on 24.11.2016.

@@ -30,6 +30,7 @@ public class GameOfLive_improved {
             System.out.println();
         }
         System.out.println();
+
         while (true) {
 //           Grid.printNewWorld(world, sizeRow,sizeCol);
             for (i = 0; i < sizeRow; i++) {

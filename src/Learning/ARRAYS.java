@@ -1,3 +1,5 @@
+package Learning;
+
 import java.util.Arrays;
 
 /**
@@ -32,7 +34,7 @@ public class ARRAYS {
 //            System.out.print(arr[i] + " ");
 //        }
 
-//   SORTING ARRAYS.SORT                                                               A
+//   SORTING Learning.ARRAYS.SORT                                                               A
         int arr[] = {3, 2, -2, 0, 4, 6};
         Arrays.sort(arr);
         for (int i=0;i<arr.length;i++){
