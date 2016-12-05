@@ -13,9 +13,9 @@ public class LinkedListDemo {
 //        i.insertFirst(1);
 //        i.insertLast(5);
 //        i.insertLast(7);
-//        i.deleteElement(4);
+        i.deleteElement(3);
 //        i.deleteFirst();
-        i.deleteLast();
+//        i.deleteLast();
 
 
         i.printList();

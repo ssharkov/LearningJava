@@ -58,7 +58,6 @@ public class List {
 
     //delete first element
     void deleteFirst() {
-
         firstElement = firstElement.nextElement;
     }
 
