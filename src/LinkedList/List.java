@@ -5,8 +5,7 @@ package LinkedList;
  */
 public class List {
     ListElement firstElement;
-    ListElement lastElement;
-//    ListElement nextElement;
+//    ListElement lastElement;
 
     // insert as first element
     void insertFirst(int elementValue) {
@@ -32,21 +31,22 @@ public class List {
             if (i.nextElement == null) {
                 i.nextElement = el;
                 el.value = elementValue;
-                lastElement = el;
+//                lastElement = el;
                 break;
             }
             i = i.nextElement;
         }
     }
 
+    //delete by value
     void deleteElement(int elementValue) {
-//delete first element
+        //delete first element
         ListElement i = firstElement;
 
         if (firstElement.value == elementValue) {
             firstElement = firstElement.nextElement;
         }
-//delete last element
+        //delete  element
         while (i != null && i.nextElement != null) {
             if (i.nextElement.value == elementValue) {
                 i.nextElement = i.nextElement.nextElement;
@@ -56,17 +56,25 @@ public class List {
         }
     }
 
+    //delete first element
     void deleteFirst() {
+
         firstElement = firstElement.nextElement;
     }
 
+    //delete last element
     void deleteLast() {
         ListElement i = firstElement;
-        while (i.nextElement.nextElement != null)
-            i = i.nextElement;
-        i.nextElement = null;
-    }
 
+        if (firstElement.nextElement == null) {
+            firstElement = null;
+        } else {
+            while (i.nextElement.nextElement != null) {
+                i = i.nextElement;
+            }
+            i.nextElement = null;
+        }
+    }
 
     // print our list
     void printList() {

@@ -7,11 +7,11 @@ public class LinkedListDemo {
     public static void main(String[] args) {
         List i = new List();
 
-        i.insertFirst(4);
-        i.insertFirst(3);
-        i.insertFirst(2);
+//        i.insertFirst(4);
+//        i.insertFirst(3);
+//        i.insertFirst(2);
 //        i.insertFirst(1);
-//        i.insertLast(5);
+        i.insertLast(5);
 //        i.insertLast(7);
 //        i.deleteElement(4);
 //        i.deleteFirst();
