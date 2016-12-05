@@ -5,12 +5,12 @@ package LinkedList;
  */
 public class List {
     ListElement firstElement;
+    ListElement lastElement;
 //    ListElement nextElement;
 
     // insert as first element
     void insertFirst(int elementValue) {
         ListElement el = new ListElement();
-
         if (firstElement == null) {
             el.value = elementValue;
             firstElement = el;
@@ -18,6 +18,24 @@ public class List {
             el.nextElement = firstElement;
             el.value = elementValue;
             firstElement = el;
+        }
+    }
+
+    void insertLast(int elementValue) {
+        ListElement el = new ListElement();
+        ListElement i = firstElement;
+        if (firstElement == null) {
+            el.value = elementValue;
+            firstElement = el;
+        }
+        while (i != null) {
+            if (i.nextElement == null) {
+                i.nextElement = el;
+                el.value = elementValue;
+                lastElement = el;
+                break;
+            }
+            i = i.nextElement;
         }
     }
 
@@ -29,13 +47,26 @@ public class List {
             firstElement = firstElement.nextElement;
         }
 //delete last element
-        while (i != null) {
+        while (i != null && i.nextElement != null) {
             if (i.nextElement.value == elementValue) {
                 i.nextElement = i.nextElement.nextElement;
-                i = i.nextElement;
+                break;
             }
+            i = i.nextElement;
         }
     }
+
+    void deleteFirst() {
+        firstElement = firstElement.nextElement;
+    }
+
+    void deleteLast() {
+        ListElement i = firstElement;
+        while (i.nextElement.nextElement != null)
+            i = i.nextElement;
+        i.nextElement = null;
+    }
+
 
     // print our list
     void printList() {

@@ -10,8 +10,13 @@ public class LinkedListDemo {
         i.insertFirst(4);
         i.insertFirst(3);
         i.insertFirst(2);
-        i.insertFirst(1);
-        i.deleteElement(3);
+//        i.insertFirst(1);
+//        i.insertLast(5);
+//        i.insertLast(7);
+//        i.deleteElement(4);
+//        i.deleteFirst();
+        i.deleteLast();
+
 
         i.printList();
 
