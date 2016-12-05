@@ -7,7 +7,7 @@ public class List {
     ListElement firstElement;
 //    ListElement lastElement;
 
-    // insert as first element
+    // insert  first element
     void insertFirst(int elementValue) {
         ListElement el = new ListElement();
         if (firstElement == null) {
@@ -20,6 +20,7 @@ public class List {
         }
     }
 
+    // insert  last element
     void insertLast(int elementValue) {
         ListElement el = new ListElement();
         ListElement i = firstElement;
@@ -40,9 +41,8 @@ public class List {
 
     //delete by value
     void deleteElement(int elementValue) {
-        //delete first element
+        //delete if only 1 element in our list element
         ListElement i = firstElement;
-
         if (firstElement.value == elementValue) {
             firstElement = firstElement.nextElement;
         }
@@ -65,7 +65,7 @@ public class List {
     //delete last element
     void deleteLast() {
         ListElement i = firstElement;
-
+        //delete if only 1 element in our list element - ELSE - delete if more than 1 element
         if (firstElement.nextElement == null) {
             firstElement = null;
         } else {
