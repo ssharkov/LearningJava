@@ -1,4 +1,4 @@
-package Learning.Classes;
+package Learning.Classes.Box;
 
 /**
  * Created by ssharkov on 01.12.2016.

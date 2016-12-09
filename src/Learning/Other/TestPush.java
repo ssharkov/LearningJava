@@ -1,4 +1,4 @@
-package Learning;
+package Learning.Other;
 
 /**
  * Created by Сергей on 24.11.2016.
