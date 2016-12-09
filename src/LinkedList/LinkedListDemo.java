@@ -8,17 +8,17 @@ public class LinkedListDemo {
         List i = new List();
 
         i.insertFirst(4);
-//        i.insertFirst(3);
+        i.insertFirst(3);
 //        i.insertFirst(2);
 //        i.insertFirst(1);
 //        i.insertLast(5);
 //        i.insertLast(7);
-        i.deleteElement(3);
+//        i.deleteElement(3);
 //        i.deleteFirst();
 //        i.deleteLast();
+        System.out.println(i.toString());
 
-
-        i.printList();
+//        i.printList();
 
     }
 }

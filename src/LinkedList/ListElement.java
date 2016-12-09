@@ -14,4 +14,14 @@ public class ListElement {
 //                ", nextElement=" + nextElement +
 //                '}';
 //    }
+
+    @Override
+    public String toString() {
+        return "ListElement{" +
+                "value=" + value +
+                ", nextElement=" + nextElement +
+                '}';
+    }
 }
+
+
