@@ -20,3 +20,4 @@ public class StackDemo {
             System.out.println(mystack2.pop());
     }
 }
+
