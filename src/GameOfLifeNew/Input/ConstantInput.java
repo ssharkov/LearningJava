@@ -1,4 +1,4 @@
-package GameOfLifeNew.In;
+package GameOfLifeNew.Input;
 
 /**
  * Created by ssharkov on 14.12.2016.

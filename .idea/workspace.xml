@@ -2,20 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d942d5fe-22ef-485f-841d-14e17f9142cc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GameOfLifeNew/GameOfLife.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GameOfLifeNew/GameOfLifeRunner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GameOfLifeNew/Grid.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GameOfLifeNew/In/ConstantInput.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GameOfLifeNew/In/GameOfLifeInput.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GameOfLifeNew/In/RandomInput.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GameOfLifeNew/Out/ConsoleOutput.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GameOfLifeNew/Out/GamaOfLifeOutput.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/gameOfLife/GameOfLive_improved.java" afterPath="$PROJECT_DIR$/src/gameOfLife/GameOfLive_improvedTmp.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/gameOfLife/Grid.java" afterPath="$PROJECT_DIR$/src/gameOfLife/GridTmp.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/gameOfLife/input/ConstantInput.java" afterPath="$PROJECT_DIR$/src/gameOfLife/input/ConstantInputTmp.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/gameOfLife/input/FileInput.java" afterPath="$PROJECT_DIR$/src/gameOfLife/input/FileInputTmp.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/gameOfLife/input/GameOfLifeInput.java" afterPath="$PROJECT_DIR$/src/gameOfLife/input/GameOfLifeInputTmp.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/GameOfLifeNew/In/ConstantInput.java" afterPath="$PROJECT_DIR$/src/GameOfLifeNew/Input/ConstantInput.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/GameOfLifeNew/In/GameOfLifeInput.java" afterPath="$PROJECT_DIR$/src/GameOfLifeNew/Input/GameOfLifeInput.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/GameOfLifeNew/In/RandomInput.java" afterPath="$PROJECT_DIR$/src/GameOfLifeNew/Input/RandomInput.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/GameOfLifeNew/Out/ConsoleOutput.java" afterPath="$PROJECT_DIR$/src/GameOfLifeNew/Output/ConsoleOutput.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/GameOfLifeNew/Out/GamaOfLifeOutput.java" afterPath="$PROJECT_DIR$/src/GameOfLifeNew/Output/GamaOfLifeOutput.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GameOfLifeNew/GameOfLife.java" afterPath="$PROJECT_DIR$/src/GameOfLifeNew/GameOfLife.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GameOfLifeNew/GameOfLifeRunner.java" afterPath="$PROJECT_DIR$/src/GameOfLifeNew/GameOfLifeRunner.java" />
     </list>
     <ignored path="LearningJava.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,14 +40,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameOfLifeRunner.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GameOfLifeRunner.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GameOfLifeNew/GameOfLifeRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -61,8 +53,8 @@
       <file leaf-file-name="GameOfLife.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GameOfLifeNew/GameOfLife.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            <state relative-caret-position="221">
+              <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,20 +75,20 @@
         </entry>
       </file>
       <file leaf-file-name="RandomInput.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GameOfLifeNew/In/RandomInput.java">
+        <entry file="file://$PROJECT_DIR$/src/GameOfLifeNew/Input/RandomInput.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
-              <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
               <folding>
-                <element signature="e#183#184#0" expanded="true" />
-                <element signature="e#232#233#0" expanded="true" />
+                <element signature="e#163#164#0" expanded="true" />
+                <element signature="e#212#213#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="GameOfLifeInput.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GameOfLifeNew/In/GameOfLifeInput.java">
+        <entry file="file://$PROJECT_DIR$/src/GameOfLifeNew/Input/GameOfLifeInput.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
@@ -106,20 +98,20 @@
         </entry>
       </file>
       <file leaf-file-name="ConstantInput.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GameOfLifeNew/In/ConstantInput.java">
+        <entry file="file://$PROJECT_DIR$/src/GameOfLifeNew/Input/ConstantInput.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="25" selection-end-column="21" />
               <folding>
-                <element signature="e#198#199#0" expanded="true" />
-                <element signature="e#247#248#0" expanded="true" />
+                <element signature="e#201#202#0" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GamaOfLifeOutput.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GameOfLifeNew/Out/GamaOfLifeOutput.java">
+      <file leaf-file-name="GamaOfLifeOutput.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/GameOfLifeNew/Output/GamaOfLifeOutput.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
@@ -129,7 +121,7 @@
         </entry>
       </file>
       <file leaf-file-name="ConsoleOutput.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GameOfLifeNew/Out/ConsoleOutput.java">
+        <entry file="file://$PROJECT_DIR$/src/GameOfLifeNew/Output/ConsoleOutput.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
               <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
@@ -208,8 +200,8 @@
         <option value="$PROJECT_DIR$/src/GameOfLifeNew/Out/ConsoleOutput.java" />
         <option value="$PROJECT_DIR$/src/GameOfLifeNew/Grid.java" />
         <option value="$PROJECT_DIR$/src/GameOfLifeNew/In/RandomInput.java" />
-        <option value="$PROJECT_DIR$/src/GameOfLifeNew/GameOfLife.java" />
         <option value="$PROJECT_DIR$/src/GameOfLifeNew/GameOfLifeRunner.java" />
+        <option value="$PROJECT_DIR$/src/GameOfLifeNew/GameOfLife.java" />
       </list>
     </option>
   </component>
@@ -389,7 +381,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Out" />
+              <option name="myItemId" value="Output" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -411,7 +403,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="In" />
+              <option name="myItemId" value="Input" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -975,7 +967,14 @@
       <option name="project" value="LOCAL" />
       <updated>1481643581997</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="test">
+      <created>1481731241571</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1481731241571</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -989,7 +988,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37733644" sideWeight="0.50326407" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37616822" sideWeight="0.4967359" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37616822" sideWeight="0.4967359" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893157" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1070,6 +1069,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
           <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1077,6 +1077,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1099,6 +1100,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1114,6 +1116,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1275,6 +1278,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1300,7 +1304,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GameOfLifeNew/In/GameOfLifeInput.java">
+    <entry file="file://$PROJECT_DIR$/src/GameOfLifeNew/Input/GameOfLifeInput.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1316,7 +1320,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GameOfLifeNew/In/ConstantInput.java">
+    <entry file="file://$PROJECT_DIR$/src/GameOfLifeNew/Input/ConstantInput.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1336,14 +1340,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GameOfLifeNew/Out/GamaOfLifeOutput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -1374,18 +1370,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GameOfLifeNew/In/ConstantInput.java">
+    <entry file="file://$PROJECT_DIR$/src/GameOfLifeNew/Input/ConstantInput.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="25" selection-end-column="21" />
           <folding>
-            <element signature="e#198#199#0" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GameOfLifeNew/Out/ConsoleOutput.java">
+    <entry file="file://$PROJECT_DIR$/src/GameOfLifeNew/Output/ConsoleOutput.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
@@ -1403,7 +1399,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GameOfLifeNew/In/GameOfLifeInput.java">
+    <entry file="file://$PROJECT_DIR$/src/GameOfLifeNew/Input/GameOfLifeInput.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
@@ -1411,21 +1407,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GameOfLifeNew/In/RandomInput.java">
+    <entry file="file://$PROJECT_DIR$/src/GameOfLifeNew/Input/RandomInput.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
-          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
           <folding>
-            <element signature="e#183#184#0" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GameOfLifeNew/GameOfLife.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        <state relative-caret-position="221">
+          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1434,11 +1430,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GameOfLifeNew/GameOfLifeRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GameOfLifeNew/Output/GamaOfLifeOutput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -1,6 +1,4 @@
-package GameOfLifeNew.In;
-
-import java.util.Map;
+package GameOfLifeNew.Input;
 
 /**
  * Created by ssharkov on 14.12.2016.
