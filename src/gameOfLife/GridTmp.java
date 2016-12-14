@@ -3,10 +3,10 @@ package gameOfLife;
 /**
  * Created by ssharkov on 30.11.2016.
  */
-public class Grid {
+public class GridTmp {
     //define next cell state for the next iteration(current - world, next - newworld)
     //method expecting: 1)array world; 2)coordinates of current cell - row,col; 3)array size - sizeRow, sizeCol)
-    public static char nextState(char[][] world, int row, int col, int sizeRow, int sizeCol) {
+    protected static char nextState(char[][] world, int row, int col, int sizeRow, int sizeCol) {
         char newWorld[][] = new char[sizeRow][sizeCol];
         int c = 0;
         char x = 'X';
@@ -39,7 +39,7 @@ public class Grid {
 
         for (int i = 0; i < sizeRow; i++) {
             for (int j = 0; j < sizeCol; j++) {
-                newWorld[i][j] = Grid.nextState(world, i, j, sizeRow, sizeCol);
+                newWorld[i][j] = GridTmp.nextState(world, i, j, sizeRow, sizeCol);
                 System.out.print(newWorld[i][j] + " ");
             }
             System.out.println();

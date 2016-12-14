@@ -3,9 +3,9 @@ package gameOfLife.input;
 /**
  * Created by ssharkov on 12.12.2016.
  */
-public class ConstantInput implements GameOfLifeInput {
+public class ConstantInputTmp implements GameOfLifeInputTmp {
 
-    public ConstantInput(int sizeRow, int sizeCol, char[][] world) {
+    public ConstantInputTmp(int sizeRow, int sizeCol, char[][] world) {
         this.sizeRow = sizeRow;
         this.sizeCol = sizeCol;
         this.world = world;

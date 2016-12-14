@@ -1,19 +1,19 @@
 package gameOfLife;
 
-import gameOfLife.input.ConstantInput;
-import gameOfLife.input.GameOfLifeInput;
+import gameOfLife.input.ConstantInputTmp;
+import gameOfLife.input.GameOfLifeInputTmp;
 
 /**
  * Created by ssharkov on 24.11.2016.
  */
-public class GameOfLive_improved {
+public class GameOfLive_improvedTmp {
     public static void main(String[] args) {
         // sizeRow, sizeCol - array size
         int sizeRow = 15, sizeCol = 15;
         char world[][] = new char[sizeRow][sizeCol];
         char newWorld[][] = new char[sizeRow][sizeCol];
 
-        GameOfLifeInput worldTest = new ConstantInput(sizeRow,sizeCol,world);
+        GameOfLifeInputTmp worldTest = new ConstantInputTmp(sizeRow,sizeCol,world);
         worldTest.getFirstWorld();
 
 
@@ -26,10 +26,10 @@ public class GameOfLive_improved {
         System.out.println();
 
         while (true) {
-//           Grid.printNewWorld(world, sizeRow,sizeCol);
+//           GridTmp.printNewWorld(world, sizeRow,sizeCol);
             for (int i = 0; i < sizeRow; i++) {
                 for (int j = 0; j < sizeCol; j++) {
-                    newWorld[i][j] = Grid.nextState(world, i, j, sizeRow, sizeCol);
+                    newWorld[i][j] = GridTmp.nextState(world, i, j, sizeRow, sizeCol);
                     System.out.print(newWorld[i][j] + " ");
                 }
                 System.out.println();
