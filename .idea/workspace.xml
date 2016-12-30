@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d942d5fe-22ef-485f-841d-14e17f9142cc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Learning/Exceptions/CustomExceptions/MyExceptions.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Learning/Exceptions/FinallyDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Learning/Exceptions/MultipleCatches.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Learning/Exceptions/NestTry.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Learning/Exceptions/SuperSubCatch.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Learning/Exceptions/ThrowDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Learning/Exceptions/ThrowsDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Learning/Exceptions/CustomExceptions/EXceptionDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Learning/Threads/CurrentThreadDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Learning/Threads/NewThread.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Learning/Threads/ThreadDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Learning/Exceptions/CustomExceptions/MyExceptions.java" afterPath="$PROJECT_DIR$/src/Learning/Exceptions/CustomExceptions/MyException.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LearningJava.iws" />
@@ -30,71 +28,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MultipleCatches.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Learning/Exceptions/MultipleCatches.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SuperSubCatch.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Learning/Exceptions/SuperSubCatch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NestTry.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Learning/Exceptions/NestTry.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThrowDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Learning/Exceptions/ThrowDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThrowsDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Learning/Exceptions/ThrowsDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FinallyDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Learning/Exceptions/FinallyDemo.java">
+      <file leaf-file-name="CurrentThreadDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Learning/Threads/CurrentThreadDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyExceptions.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Learning/Exceptions/CustomExceptions/MyExceptions.java">
+      <file leaf-file-name="NewThread.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Learning/Threads/NewThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="408">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Learning/Threads/ThreadDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -121,11 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Learning/OOP/Calc/Addition.java" />
-        <option value="$PROJECT_DIR$/src/Learning/OOP/Calc/Substraction.java" />
-        <option value="$PROJECT_DIR$/src/Learning/OOP/Calc/Multiplication.java" />
-        <option value="$PROJECT_DIR$/src/Learning/OOP/Calc/Expression.java" />
-        <option value="$PROJECT_DIR$/src/Learning/OOP/Calc/Operations.java" />
         <option value="$PROJECT_DIR$/src/Learning/OOP/Calc/Division.java" />
         <option value="$PROJECT_DIR$/src/Learning/OOP/Calc/operations/Addition.java" />
         <option value="$PROJECT_DIR$/src/Learning/OOP/Calc/operations/Division.java" />
@@ -172,6 +125,11 @@
         <option value="$PROJECT_DIR$/src/Learning/Exceptions/ThrowsDemo.java" />
         <option value="$PROJECT_DIR$/src/Learning/Exceptions/FinallyDemo.java" />
         <option value="$PROJECT_DIR$/src/Learning/Exceptions/CustomExceptions/MyExceptions.java" />
+        <option value="$PROJECT_DIR$/src/Learning/Exceptions/CustomExceptions/EXceptionDemo.java" />
+        <option value="$PROJECT_DIR$/src/Learning/Exceptions/CustomExceptions/MyException.java" />
+        <option value="$PROJECT_DIR$/src/Learning/Threads/CurrentThreadDemo.java" />
+        <option value="$PROJECT_DIR$/src/Learning/Threads/NewThread.java" />
+        <option value="$PROJECT_DIR$/src/Learning/Threads/ThreadDemo.java" />
       </list>
     </option>
   </component>
@@ -269,26 +227,8 @@
               <option name="myItemId" value="Learning" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="LearningJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearningJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Exceptions" />
+              <option name="myItemId" value="Threads" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -307,14 +247,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Exceptions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CustomExceptions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -347,67 +279,7 @@
       <recent name="C:\Users\SSharkov\Desktop\JavaProject\LearningJava\src\GameOfLifeNew\in" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FinallyDemo">
-    <configuration default="false" name="MultipleCatches" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Learning.Exceptions.CustomExceptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Learning.Exceptions.MultipleCatches" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="LearningJava" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="NestTry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Learning.Exceptions.CustomExceptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Learning.Exceptions.NestTry" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="LearningJava" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="ThrowDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Learning.Exceptions.CustomExceptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Learning.Exceptions.ThrowDemo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="LearningJava" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.ThreadDemo">
     <configuration default="false" name="ThrowsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -436,6 +308,66 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="Learning.Exceptions.FinallyDemo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="LearningJava" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="EXceptionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Learning.Exceptions.CustomExceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Learning.Exceptions.CustomExceptions.EXceptionDemo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="LearningJava" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="CurrentThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Learning.Threads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Learning.Threads.CurrentThreadDemo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="LearningJava" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Learning.Threads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Learning.Threads.ThreadDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -693,19 +625,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.MultipleCatches" />
-      <item index="1" class="java.lang.String" itemvalue="Application.NestTry" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ThrowDemo" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ThrowsDemo" />
-      <item index="4" class="java.lang.String" itemvalue="Application.FinallyDemo" />
+      <item index="0" class="java.lang.String" itemvalue="Application.ThrowsDemo" />
+      <item index="1" class="java.lang.String" itemvalue="Application.FinallyDemo" />
+      <item index="2" class="java.lang.String" itemvalue="Application.EXceptionDemo" />
+      <item index="3" class="java.lang.String" itemvalue="Application.CurrentThreadDemo" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ThreadDemo" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.FinallyDemo" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ThrowsDemo" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ThrowDemo" />
-        <item index="3" class="java.lang.String" itemvalue="Application.NestTry" />
-        <item index="4" class="java.lang.String" itemvalue="Application.MultipleCatches" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ThreadDemo" />
+        <item index="1" class="java.lang.String" itemvalue="Application.CurrentThreadDemo" />
+        <item index="2" class="java.lang.String" itemvalue="Application.EXceptionDemo" />
+        <item index="3" class="java.lang.String" itemvalue="Application.FinallyDemo" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ThrowsDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -856,12 +788,19 @@
       <option name="project" value="LOCAL" />
       <updated>1481731241571</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="test">
+      <created>1482845729153</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1482845729153</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1862" y="35" width="1745" height="988" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -870,7 +809,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37733644" sideWeight="0.50326407" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.375" sideWeight="0.4967359" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.375" sideWeight="0.4967359" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893157" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -879,7 +818,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995327" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24985163" sideWeight="0.5042017" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -933,10 +872,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Learning/Classes/Box/OverloadCons.java" />
-    <entry file="file://$PROJECT_DIR$/src/Learning/OOP/Calc/input/StringInput.java" />
-    <entry file="file://$PROJECT_DIR$/src/Learning/OOP/Calc/operations/Multiplication.java" />
-    <entry file="file://$PROJECT_DIR$/src/Learning/OOP/Calc/operations/Division.java" />
     <entry file="file://$PROJECT_DIR$/src/Learning/OOP/Calc/operations/Substraction.java" />
     <entry file="file://$PROJECT_DIR$/src/Learning/OOP/Calc/operations/Operations.java" />
     <entry file="file://$PROJECT_DIR$/src/Learning/OOP/InterfacesDemo.java" />
@@ -967,14 +902,10 @@
     <entry file="file://$PROJECT_DIR$/src/gameOfLife/input/ConstantInputTmp.java" />
     <entry file="file://$PROJECT_DIR$/src/gameOfLife/GameOfLive_improvedTmp.java" />
     <entry file="file://$PROJECT_DIR$/src/gameOfLife/GridTmp.java" />
-    <entry file="file://$PROJECT_DIR$/src/GameOfLifeNew/Grid.java" />
     <entry file="file://$PROJECT_DIR$/src/GameOfLifeNew/Input/ConstantInput.java" />
-    <entry file="file://$PROJECT_DIR$/src/GameOfLifeNew/Output/ConsoleOutput.java" />
     <entry file="file://$PROJECT_DIR$/src/Learning/OOP/Calc/CalcDemo.java" />
     <entry file="file://$PROJECT_DIR$/src/GameOfLifeNew/Input/GameOfLifeInput.java" />
     <entry file="file://$PROJECT_DIR$/src/GameOfLifeNew/Input/RandomInput.java" />
-    <entry file="file://$PROJECT_DIR$/src/GameOfLifeNew/GameOfLife.java" />
-    <entry file="file://$PROJECT_DIR$/src/GameOfLifeNew/GameOfLifeRunner.java" />
     <entry file="file://$PROJECT_DIR$/src/GameOfLifeNew/Output/GamaOfLifeOutput.java" />
     <entry file="file://$PROJECT_DIR$/src/Learning/Exceptions/MultipleCatches.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -1032,10 +963,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Learning/Exceptions/CustomExceptions/MyExceptions.java">
+    <entry file="file://$PROJECT_DIR$/src/Learning/Exceptions/CustomExceptions/MyException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="289">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Learning/Exceptions/CustomExceptions/EXceptionDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GameOfLifeNew/GameOfLife.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="28" column="61" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GameOfLifeNew/GameOfLifeRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GameOfLifeNew/Grid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GameOfLifeNew/Output/ConsoleOutput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Learning/Threads/CurrentThreadDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Learning/Threads/ThreadDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Learning/Threads/NewThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding />
         </state>
       </provider>
