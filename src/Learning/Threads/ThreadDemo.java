@@ -5,7 +5,7 @@ package Learning.Threads;
  */
 public class ThreadDemo {
     public static void main(String[] args) {
-        new NewThread();
+        new NewThread("one");
         try {
             for (int i = 5; i > 0; i--) {
                 System.out.println("main thread: " + i);
