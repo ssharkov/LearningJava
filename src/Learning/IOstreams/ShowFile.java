@@ -30,7 +30,7 @@ public class ShowFile {
             System.out.println("IO error");
         } finally {
             try {
-                fin.close();
+                if (fin!=null) fin.close();
             } catch (IOException e) {
                 System.out.println("Error while closing file");
             }

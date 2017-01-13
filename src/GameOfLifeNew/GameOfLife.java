@@ -1,6 +1,7 @@
 package GameOfLifeNew;
 
 import GameOfLifeNew.Input.ConstantInput;
+import GameOfLifeNew.Input.FileInput;
 import GameOfLifeNew.Input.GameOfLifeInput;
 import GameOfLifeNew.Input.RandomInput;
 import GameOfLifeNew.Output.ConsoleOutput;
@@ -34,6 +35,19 @@ public class GameOfLife {
         while (true) {
             consoleOutput.printWorld(temp);
             temp = grid.nextWorldState(temp);
+        }
+    }
+//run Game of Life with first world copied from file
+    protected static void RunFileInput(){
+        GameOfLifeInput fileInput = new FileInput(15);
+        GamaOfLifeOutput consoleOutput = new ConsoleOutput();
+        Grid grid = new Grid();
+        char[][] temp;
+        consoleOutput.printWorld(fileInput.getFirstWorld());
+        temp=grid.nextWorldState(fileInput.getFirstWorld());
+        while (true){
+            consoleOutput.printWorld(temp);
+            temp=grid.nextWorldState(temp);
         }
     }
 }

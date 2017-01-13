@@ -6,7 +6,8 @@ package GameOfLifeNew;
 public class GameOfLifeRunner {
     public static void main(String[] args) {
 //        GameOfLife.RunConstant();
-        GameOfLife.RunRandom();
+//        GameOfLife.RunRandom();
+        GameOfLife.RunFileInput();
 
     }
 
