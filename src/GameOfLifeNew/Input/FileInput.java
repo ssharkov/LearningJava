@@ -18,7 +18,7 @@ public class FileInput implements GameOfLifeInput {
     @Override
     public char[][] getFirstWorld() {
         try {
-            File file = new File("C:/Users/SSharkov/Desktop/JavaProject/LearningJava/src/Learning/IOstreams/Test.txt");
+            File file = new File("C:/Users/SSharkov/Desktop/JavaProject/LearningJava/src/GameOfLifeNew/Input/Test.txt");
             Scanner input = new Scanner(file);
 
             for (int i = 0; i < world.length; i++) {

@@ -4,7 +4,7 @@ package GameOfLifeNew.Output;
  * Created by ssharkov on 14.12.2016.
  * Show result in console
  */
-public class ConsoleOutput implements GamaOfLifeOutput {
+public class ConsoleOutput implements GameOfLifeOutput {
 
     @Override
     public void printWorld(char[][] world) {

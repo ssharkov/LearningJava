@@ -10,8 +10,17 @@ public class MyException extends Exception {
         this.detail = detail;
     }
 
+    public MyException(Throwable cause) {
+        super(cause);
+    }
+
     @Override
     public String toString() {
         return "MyException{detail=" + detail + "}";
+    }
+
+    @Override
+    public void printStackTrace() {
+        super.printStackTrace();
     }
 }

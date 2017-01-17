@@ -7,7 +7,8 @@ public class GameOfLifeRunner {
     public static void main(String[] args) {
 //        GameOfLife.RunConstant();
 //        GameOfLife.RunRandom();
-        GameOfLife.RunFileInput();
+//        GameOfLife.RunFileInput();
+        GameOfLife.RunFileOutputFirstTen();
 
     }
 
