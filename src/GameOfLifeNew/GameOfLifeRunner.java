@@ -9,12 +9,18 @@ public class GameOfLifeRunner {
     public static void main(String[] args) {
 //        GameOfLife.RunConstant();
 //        GameOfLife.RunRandom();
+
         try {
             GameOfLife.RunFileInput();
         } catch (MyException e) {
             System.out.println("File Not Found " + e.getMessage());
         }
-//        GameOfLife.RunFileOutputFirstTen();
+
+//        try {
+//            GameOfLife.RunFileOutputFirstTen();
+//        } catch (MyException e) {
+//            System.out.println("File Not Found " + e.getMessage());
+//        }
 
     }
 
