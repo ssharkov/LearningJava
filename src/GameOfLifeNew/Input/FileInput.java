@@ -16,9 +16,9 @@ public class FileInput implements GameOfLifeInput {
     private char world[][];
 
     @Override
-    public char[][] getFirstWorld() {
+    public char[][] getFirstWorld() throws MyException{
         try {
-            File file = new File("C:/Users/SSharkov/Desktop/JavaProject/LearningJava/src/GameOfLifeNew/Input/Test.txt");
+            File file = new File("C:/Users/SSharkov/Desktop/JavaProject/LearningJava/src/GameOfLifeNew/Input/TTest.txt");
             Scanner input = new Scanner(file);
 
             for (int i = 0; i < world.length; i++) {
@@ -28,7 +28,8 @@ public class FileInput implements GameOfLifeInput {
             }
             input.close();
         } catch (FileNotFoundException e) {
-            e.printStackTrace();
+            throw new MyException(e);
+//            e.printStackTrace();
         }
         return world;
     }

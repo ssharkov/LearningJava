@@ -7,13 +7,14 @@ import GameOfLifeNew.Input.RandomInput;
 import GameOfLifeNew.Output.ConsoleOutput;
 import GameOfLifeNew.Output.FileOutputFirstTen;
 import GameOfLifeNew.Output.GameOfLifeOutput;
+import Learning.Exceptions.CustomExceptions.MyException;
 
 /**
  * Created by ssharkov on 14.12.2016.
  */
 public class GameOfLife {
 //run Game of Life with constant first world - planner
-    protected static void RunConstant() {
+    protected static void RunConstant() throws MyException{
         GameOfLifeInput constantInput = new ConstantInput(15);
         GameOfLifeOutput consoleOutput = new ConsoleOutput();
         Grid grid = new Grid();
@@ -26,7 +27,7 @@ public class GameOfLife {
         }
     }
 //run Game of Life with random first world
-    protected static void RunRandom() {
+    protected static void RunRandom() throws MyException{
         GameOfLifeInput randomInput = new RandomInput(15);
         GameOfLifeOutput consoleOutput = new ConsoleOutput();
         Grid grid = new Grid();
@@ -39,7 +40,7 @@ public class GameOfLife {
         }
     }
 //run Game of Life with first world copied from file
-    protected static void RunFileInput(){
+    protected static void RunFileInput()throws MyException{
         GameOfLifeInput fileInput = new FileInput(15);
         GameOfLifeOutput consoleOutput = new ConsoleOutput();
         Grid grid = new Grid();
@@ -53,7 +54,7 @@ public class GameOfLife {
     }
 
 //run Game of Life with first world copied from file and output to file
-    protected static void RunFileOutputFirstTen(){
+    protected static void RunFileOutputFirstTen() throws MyException{
         GameOfLifeInput fileInput = new FileInput(15);
         GameOfLifeOutput fileOutputFirstTen = new FileOutputFirstTen();
         Grid grid = new Grid();
@@ -65,5 +66,4 @@ public class GameOfLife {
             temp=grid.nextWorldState(temp);
         }
     }
-
 }
