@@ -6,7 +6,6 @@ package LinkedList;
 public class LinkedListDemo {
     public static void main(String[] args) {
         List<Object> i = new List<>();
-        List<String> j = new List<>();
 
         i.insertFirst(4.1);
         i.insertFirst(3);
