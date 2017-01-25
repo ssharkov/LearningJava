@@ -3,12 +3,14 @@ package LinkedList;
 /**
  * Created by ssharkov on 02.12.2016.
  */
-public class List {
+public class List<T> {
     ListElement firstElement;
-//    ListElement lastElement;
+
+
+    //    ListElement lastElement;
 
     // insert  first element
-    void insertFirst(int elementValue) {
+    void insertFirst(T elementValue) {
         ListElement el = new ListElement();
         if (firstElement == null) {
             el.value = elementValue;
@@ -21,7 +23,7 @@ public class List {
     }
 
     // insert  last element
-    void insertLast(int elementValue) {
+    void insertLast(T elementValue) {
         ListElement el = new ListElement();
         ListElement i = firstElement;
         if (firstElement == null) {
@@ -40,7 +42,7 @@ public class List {
     }
 
     //delete by value
-    void deleteElement(int elementValue) {
+    void deleteElement(T elementValue) {
         //delete if only 1 element in our list element
         ListElement i = firstElement;
         if (firstElement.value == elementValue) {

@@ -5,20 +5,24 @@ package LinkedList;
  */
 public class LinkedListDemo {
     public static void main(String[] args) {
-        List i = new List();
+        List<Object> i = new List<>();
+        List<String> j = new List<>();
 
-        i.insertFirst(4);
+        i.insertFirst(4.1);
         i.insertFirst(3);
-//        i.insertFirst(2);
-//        i.insertFirst(1);
+        i.insertFirst("java");
+        i.insertFirst(2.2);
+        i.insertFirst(1.1);
+        i.insertFirst("test");
 //        i.insertLast(5);
 //        i.insertLast(7);
-//        i.deleteElement(3);
+        i.deleteElement("test1");
 //        i.deleteFirst();
 //        i.deleteLast();
-        System.out.println(i.toString());
+//        System.out.println(i.toString());
 
-//        i.printList();
+        i.printList();
+
 
     }
 }
