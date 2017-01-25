@@ -4,9 +4,7 @@ package LinkedList;
  * Created by ssharkov on 02.12.2016.
  */
 public class List<T> {
-    ListElement firstElement;
-
-
+    private ListElement firstElement;
     //    ListElement lastElement;
 
     // insert  first element
