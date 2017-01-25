@@ -79,7 +79,7 @@ public class List<T> {
     void printList() {
         ListElement i = firstElement;
         while (i != null) {
-            System.out.print(i.value + " ");
+            System.out.print("[" + i.value + "]" + " ");
             i = i.nextElement;
         }
     }
