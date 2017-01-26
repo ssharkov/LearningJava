@@ -3,8 +3,8 @@ package LinkedList;
 /**
  * Created by ssharkov on 02.12.2016.
  */
-public class List<T> {
-    private ListElement firstElement;
+class List<T> {
+    private ListElement<T> firstElement;
     //    ListElement lastElement;
 
     @Override
@@ -14,7 +14,7 @@ public class List<T> {
 
     // insert  first element
     void insertFirst(T elementValue) {
-        ListElement el = new ListElement();
+        ListElement<T> el = new ListElement<>();
         if (firstElement == null) {
             el.value = elementValue;
             firstElement = el;
@@ -27,8 +27,8 @@ public class List<T> {
 
     // insert  last element
     void insertLast(T elementValue) {
-        ListElement el = new ListElement();
-        ListElement i = firstElement;
+        ListElement<T> el = new ListElement<>();
+        ListElement<T> i = firstElement;
         if (firstElement == null) {
             el.value = elementValue;
             firstElement = el;
@@ -47,7 +47,7 @@ public class List<T> {
     //delete by value
     void deleteElement(T elementValue) {
         //delete if only 1 element in our list element
-        ListElement i = firstElement;
+        ListElement<T> i = firstElement;
         if (firstElement.value == elementValue) {
             firstElement = firstElement.nextElement;
         }
@@ -68,7 +68,7 @@ public class List<T> {
 
     //delete last element
     void deleteLast() {
-        ListElement i = firstElement;
+        ListElement<T> i = firstElement;
         //delete if only 1 element in our list element - ELSE - delete if more than 1 element
         if (firstElement.nextElement == null) {
             firstElement = null;
@@ -80,21 +80,21 @@ public class List<T> {
         }
     }
 
-
     T getFirstElement() {
-        ListElement i = firstElement;
-        return (T) i.value;
+        ListElement<T> i = firstElement;
+        return i.value;
     }
 
     T getLastElement() {
-        ListElement i = firstElement;
+        ListElement<T> i = firstElement;
         while (i != null) {
-            if (i.nextElement == null){
+            if (i.nextElement == null) {
                 break;
             }
             i = i.nextElement;
         }
-        return (T) i.value;
+        return i.value;
+
     }
 
 
