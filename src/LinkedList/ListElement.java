@@ -8,13 +8,9 @@ public class ListElement<T> {
     ListElement nextElement;
 
 
-
     @Override
     public String toString() {
-        return "ListElement{" +
-                "value=" + value +
-                ", nextElement=" + nextElement +
-                '}';
+        return  value + " " + nextElement ;
     }
 }
 

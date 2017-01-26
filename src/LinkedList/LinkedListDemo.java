@@ -18,9 +18,12 @@ public class LinkedListDemo {
         i.deleteElement("test1");
 //        i.deleteFirst();
 //        i.deleteLast();
-//        System.out.println(i.toString());
 
-        i.printList();
+        System.out.println(i);
+
+        System.out.println(i.getFirstElement());
+
+
 
 
     }

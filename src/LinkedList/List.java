@@ -7,6 +7,11 @@ public class List<T> {
     private ListElement firstElement;
     //    ListElement lastElement;
 
+    @Override
+    public String toString() {
+        return  firstElement + " ";
+    }
+
     // insert  first element
     void insertFirst(T elementValue) {
         ListElement el = new ListElement();
@@ -75,13 +80,18 @@ public class List<T> {
         }
     }
 
-    // print our list
-    void printList() {
-        ListElement i = firstElement;
-        while (i != null) {
-            System.out.print("[" + i.value + "]" + " ");
-            i = i.nextElement;
-        }
+
+     ListElement getFirstElement() {
+        return firstElement;
     }
+
+    //    // print our list
+//    void printList() {
+//        ListElement i = firstElement;
+//        while (i != null) {
+//            System.out.print("[" + i.value + "]" + " ");
+//            i = i.nextElement;
+//        }
+//    }
 
 }
