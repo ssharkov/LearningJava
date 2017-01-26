@@ -5,7 +5,7 @@ package LinkedList;
  */
 public class ListElement<T> {
     T value;
-    ListElement nextElement;
+    ListElement<T> nextElement;
 
 
     @Override
