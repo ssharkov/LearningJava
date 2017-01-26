@@ -9,7 +9,7 @@ public class List<T> {
 
     @Override
     public String toString() {
-        return  firstElement + " ";
+        return firstElement + " ";
     }
 
     // insert  first element
@@ -81,9 +81,22 @@ public class List<T> {
     }
 
 
-     ListElement getFirstElement() {
-        return firstElement;
+    T getFirstElement() {
+        ListElement i = firstElement;
+        return (T) i.value;
     }
+
+    T getLastElement() {
+        ListElement i = firstElement;
+        while (i != null) {
+            if (i.nextElement == null){
+                break;
+            }
+            i = i.nextElement;
+        }
+        return (T) i.value;
+    }
+
 
     //    // print our list
 //    void printList() {
