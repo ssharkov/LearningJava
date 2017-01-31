@@ -3,7 +3,7 @@ package LinkedList;
 /**
  * Created by ssharkov on 01.12.2016.
  */
-public class ListElement<T> {
+class ListElement<T> {
     T value;
     ListElement<T> nextElement;
 
