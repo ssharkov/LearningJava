@@ -17,6 +17,5 @@ public class MailList {
             System.out.println(el);
             System.out.println();
         }
-
     }
 }

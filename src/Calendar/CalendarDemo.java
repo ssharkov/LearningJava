@@ -9,6 +9,10 @@ public class CalendarDemo {
     public static void main(String[] args) {
         InMemoryDemo e = new InMemoryDemo();
 
-//        e.addEvent();
+
+        LocalDateTime ldt = LocalDateTime.parse("2017-02-01T10:00:00");
+        System.out.println("Date: " + ldt);
+
+//        e.addEvent(ldt, "test event","Room 100");
     }
 }
