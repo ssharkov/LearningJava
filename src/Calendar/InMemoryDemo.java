@@ -23,4 +23,10 @@ public class InMemoryDemo implements Calendar {
 
         return list;
     }
+
+
+    @Override
+    public String toString() {
+        return ev + "\n";
+    }
 }

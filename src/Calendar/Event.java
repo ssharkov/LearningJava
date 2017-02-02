@@ -15,4 +15,9 @@ public class Event {
         this.subject = subject;
         this.location = location;
     }
+
+    @Override
+    public String toString() {
+        return startTime + "\n" + subject + "\n" + location + "\n";
+    }
 }
