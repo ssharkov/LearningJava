@@ -8,9 +8,9 @@ import java.util.List;
  */
 public interface Calendar {
     void  addEvent(Event event);
-    List<Event> getEvent(LocalDateTime from, LocalDateTime to);
-//    List<Event> getEvent(String location);
-//    remove(starttime);
+    List<Event> getEventByDate(LocalDateTime from, LocalDateTime to);
+    List<Event> getEventByLocation(String location);
+    void remove(LocalDateTime startTime);
 
 
 
