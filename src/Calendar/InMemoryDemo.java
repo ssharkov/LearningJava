@@ -9,16 +9,16 @@ import java.util.*;
 public class InMemoryDemo implements Calendar {
     TreeMap<LocalDateTime, Event> ev = new TreeMap<LocalDateTime, Event>();
     HashMap<String, List<Event>> index = new HashMap<String, List<Event>>();
-
+    List<Event> listTmp = new ArrayList<Event>();
 
 
     @Override
     public void addEvent(Event event) {
         ev.put(event.startTime, event);
 
-        List<Event> listTmp = new LinkedList<Event>();
+
         listTmp.add(event);
-        index.put(event.location, listTmp );
+        index.put(event.location, listTmp);
     }
 
     @Override
@@ -36,9 +36,10 @@ public class InMemoryDemo implements Calendar {
     @Override
     public void remove(LocalDateTime startTime) {
 
+//        String loc = ev.get(startTime).getLocation();
+//        if(index.get(loc).get(0).getStartTime()==startTime){index.remove(loc);}
+//        index.get(loc).remove(startTime);
         ev.remove(startTime);
-
-//        index.remove();
 
     }
 

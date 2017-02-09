@@ -16,6 +16,14 @@ public class Event {
         this.location = location;
     }
 
+    public String getLocation() {
+        return location;
+    }
+
+    public LocalDateTime getStartTime() {
+        return startTime;
+    }
+
     @Override
     public String toString() {
         return startTime + "\n" + subject + "\n" + location + "\n";
