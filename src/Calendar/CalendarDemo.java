@@ -23,9 +23,9 @@ public class CalendarDemo {
         e.addEvent(event1);
         e.addEvent(event2);
         e.addEvent(event3);
-//        e.remove(ldt1);
+        e.remove(ldt1);
 
-//        System.out.println(e.getEventByDate(ldt,ldt2));
+//        System.out.println(e.getEventByDate(ldt0,ldt3));
         System.out.println(e.getEventByLocation("101"));
 
 

@@ -38,11 +38,17 @@ public class InMemoryDemo implements Calendar {
     @Override
     public void remove(LocalDateTime startTime) {
 
-//        String loc = ev.get(startTime).getLocation();
-//        if(index.get(loc).get(0).getStartTime()==startTime){index.remove(loc);}
-//        index.get(loc).remove(startTime);
+        String loc = ev.get(startTime).getLocation();
+        List<Event> events = index.get(loc);
+        int i=0;
+        for (Event e : events) {
+            if (e.getStartTime().equals(startTime)) {
+                break;
+            }
+            i++;
+        }
+        events.remove(i);
         ev.remove(startTime);
-
     }
 
     @Override
