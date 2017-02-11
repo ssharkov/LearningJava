@@ -9,16 +9,18 @@ import java.util.*;
 public class InMemoryDemo implements Calendar {
     TreeMap<LocalDateTime, Event> ev = new TreeMap<LocalDateTime, Event>();
     HashMap<String, List<Event>> index = new HashMap<String, List<Event>>();
-    List<Event> listTmp = new ArrayList<Event>();
 
 
     @Override
     public void addEvent(Event event) {
         ev.put(event.startTime, event);
+        List<Event> events = index.get(event.location);
 
-
-        listTmp.add(event);
-        index.put(event.location, listTmp);
+        if (events == null) {
+            events = new ArrayList<Event>();
+            index.put(event.location, events);
+        }
+        events.add(event);
     }
 
     @Override
