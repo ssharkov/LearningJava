@@ -40,7 +40,7 @@ public class InMemoryDemo implements Calendar {
 
         String loc = ev.get(startTime).getLocation();
         List<Event> events = index.get(loc);
-        int i=0;
+        int i = 0;
         for (Event e : events) {
             if (e.getStartTime().equals(startTime)) {
                 break;
@@ -48,6 +48,7 @@ public class InMemoryDemo implements Calendar {
             i++;
         }
         events.remove(i);
+
         ev.remove(startTime);
     }
 
