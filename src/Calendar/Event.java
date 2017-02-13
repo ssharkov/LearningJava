@@ -7,13 +7,18 @@ import java.time.LocalDateTime;
  */
 public class Event {
     LocalDateTime startTime;
+    LocalDateTime endTime;
     String subject;
     String location;
+    CallType type;
 
-    public Event(LocalDateTime startTime, String subject, String location) {
+
+    public Event(LocalDateTime startTime, LocalDateTime endTime, String subject, String location, CallType type) {
         this.startTime = startTime;
+        this.endTime = endTime;
         this.subject = subject;
         this.location = location;
+        this.type = type;
     }
 
     public String getLocation() {
@@ -24,8 +29,12 @@ public class Event {
         return startTime;
     }
 
+    public LocalDateTime getEndTime() {
+        return endTime;
+    }
+
     @Override
     public String toString() {
-        return startTime + "\n" + subject + "\n" + location + "\n";
+        return startTime + "\n" + endTime + "\n" + subject + "\n" + location + "\n" + type + "\n";
     }
 }

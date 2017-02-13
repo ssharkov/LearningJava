@@ -53,6 +53,19 @@ public class InMemoryDemo implements Calendar {
     }
 
     @Override
+    public boolean isOccupied(String location, LocalDateTime time) {
+        boolean success = false;
+
+        List<Event> events = index.get(location);
+        for (Event e : events) {
+            if (time.isAfter(e.getStartTime()) && time.isBefore(e.getEndTime())) {
+                success = true;
+            }
+        }
+        return success;
+    }
+
+    @Override
     public String toString() {
         return ev + "\n";
     }

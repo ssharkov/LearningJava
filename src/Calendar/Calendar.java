@@ -11,6 +11,7 @@ public interface Calendar {
     List<Event> getEventByDate(LocalDateTime from, LocalDateTime to);
     List<Event> getEventByLocation(String location);
     void remove(LocalDateTime startTime);
+    boolean isOccupied(String location, LocalDateTime time);
 
 
 
