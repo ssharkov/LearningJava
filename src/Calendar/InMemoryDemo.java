@@ -32,6 +32,9 @@ public class InMemoryDemo implements Calendar {
 
     @Override
     public List<Event> getEventByLocation(String location) {
+        if (index.get(location)==null){
+            return Collections.emptyList();
+        }
         return index.get(location);
     }
 
@@ -39,18 +42,32 @@ public class InMemoryDemo implements Calendar {
     public void remove(LocalDateTime startTime) {
 
         String loc = ev.get(startTime).getLocation();
-        List<Event> events = index.get(loc);
-        int i = 0;
-        for (Event e : events) {
-            if (e.getStartTime().equals(startTime)) {
-                break;
-            }
-            i++;
-        }
-        events.remove(i);
-
         ev.remove(startTime);
+        Iterator<Event> itr =index.get(loc).iterator();
+        while (itr.hasNext()) {
+            Event element = itr.next();
+            if (element.getStartTime().equals(startTime)){
+                itr.remove();
+            }
+        }
     }
+//     Old 'remove' method. To be deleted once new one confirmed as working.
+//    @Override
+//    public void remove(LocalDateTime startTime) {
+//
+//        String loc = ev.get(startTime).getLocation();
+//        List<Event> events = index.get(loc);
+//        int i = 0;
+//        for (Event e : events) {
+//            if (e.getStartTime().equals(startTime)) {
+//                break;
+//            }
+//            i++;
+//        }
+//        events.remove(i);
+//
+//        ev.remove(startTime);
+//    }
 
     @Override
     public boolean isOccupied(String location, LocalDateTime time) {

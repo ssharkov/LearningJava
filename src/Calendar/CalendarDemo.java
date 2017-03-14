@@ -30,11 +30,12 @@ public class CalendarDemo {
         e.addEvent(event2);
         e.addEvent(event3);
 //        e.remove(startTime0);
+//        e.remove(startTime1);
 
 
-//        System.out.println(e.getEventByDate(ldt0,ldt3));
+//        System.out.println(e.getEventByDate(startTime0,endTime1));
         System.out.println(e.getEventByLocation("101"));
-        System.out.println(e.isOccupied("102",isOccupiedDate));
+//        System.out.println(e.isOccupied("102",isOccupiedDate));
 
 
 //        System.out.println(e);
