@@ -13,12 +13,19 @@ public class InMemoryDemo implements Calendar {
 
     @Override
     public void addEvent(Event event) {
-        ev.put(event.startTime, event);
+        Event put = ev.put(event.startTime, event);
         List<Event> events = index.get(event.location);
 
         if (events == null) {
             events = new ArrayList<Event>();
             index.put(event.location, events);
+        }
+
+        Iterator<Event> itr = events.iterator();
+        while (itr.hasNext()) {
+            Event element = itr.next();
+            if (element.getStartTime().equals(put.getStartTime()))
+                itr.remove();
         }
         events.add(event);
     }
@@ -32,7 +39,7 @@ public class InMemoryDemo implements Calendar {
 
     @Override
     public List<Event> getEventByLocation(String location) {
-        if (index.get(location)==null){
+        if (index.get(location) == null) {
             return Collections.emptyList();
         }
         return index.get(location);
@@ -43,10 +50,10 @@ public class InMemoryDemo implements Calendar {
 
         String loc = ev.get(startTime).getLocation();
         ev.remove(startTime);
-        Iterator<Event> itr =index.get(loc).iterator();
+        Iterator<Event> itr = index.get(loc).iterator();
         while (itr.hasNext()) {
             Event element = itr.next();
-            if (element.getStartTime().equals(startTime)){
+            if (element.getStartTime().equals(startTime)) {
                 itr.remove();
             }
         }

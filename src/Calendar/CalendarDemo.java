@@ -20,7 +20,7 @@ public class CalendarDemo {
         LocalDateTime isOccupiedDate = LocalDateTime.parse("2017-02-03T10:29:00");
 
         Event event0 = new Event(startTime0, endTime0, "test event zero", "101", CallType.CALL);
-        Event event1 = new Event(startTime1, endTime1, "test event one ", "101", CallType.MEETING);
+        Event event1 = new Event(startTime0, endTime0, "test event one", "101", CallType.MEETING);
         Event event2 = new Event(startTime2, endTime2, "test event two", "102", CallType.PERSONAL);
         Event event3 = new Event(startTime3, endTime3, "test event three", "103", CallType.CALL);
 
@@ -33,9 +33,9 @@ public class CalendarDemo {
 //        e.remove(startTime1);
 
 
-//        System.out.println(e.getEventByDate(startTime0,endTime1));
+//        System.out.println(e.getEventByDate(startTime0,endTime0));
         System.out.println(e.getEventByLocation("101"));
-//        System.out.println(e.isOccupied("102",isOccupiedDate));
+//        System.out.println(e.isOccupied("101",isOccupiedDate));
 
 
 //        System.out.println(e);
