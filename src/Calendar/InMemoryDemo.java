@@ -16,18 +16,25 @@ public class InMemoryDemo implements Calendar {
         Event put = ev.put(event.startTime, event);
         List<Event> events = index.get(event.location);
 
+
         if (events == null) {
             events = new ArrayList<Event>();
             index.put(event.location, events);
         }
 
-        Iterator<Event> itr = events.iterator();
-        while (itr.hasNext()) {
-            Event element = itr.next();
-            if (element.getStartTime().equals(put.getStartTime()))
-                itr.remove();
-        }
+        List<Event> tmp = index.get(put.getLocation());
+
+
+//        Iterator<Event> itr = events.iterator();
+//        while (itr.hasNext()) {
+//            Event element = itr.next();
+//            if (element.getStartTime().equals(put.getStartTime()))
+//                itr.remove();
+//        }
         events.add(event);
+
+
+
     }
 
     @Override
